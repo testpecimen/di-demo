@@ -1,4 +1,4 @@
-package diegojunco.springframework.didemo.services;
+package diegojunco.services;
 
 import org.springframework.stereotype.Service;
 

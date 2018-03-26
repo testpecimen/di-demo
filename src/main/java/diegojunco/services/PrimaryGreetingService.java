@@ -1,4 +1,4 @@
-package diegojunco.springframework.didemo.services;
+package diegojunco.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;

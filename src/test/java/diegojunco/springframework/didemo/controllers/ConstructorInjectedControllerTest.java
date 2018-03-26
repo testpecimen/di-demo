@@ -1,6 +1,6 @@
 package diegojunco.springframework.didemo.controllers;
 
-import diegojunco.springframework.didemo.services.GreetingServiceImpl;
+import diegojunco.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 

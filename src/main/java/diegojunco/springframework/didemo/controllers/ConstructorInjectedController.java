@@ -1,6 +1,6 @@
 package diegojunco.springframework.didemo.controllers;
 
-import diegojunco.springframework.didemo.services.GreetingService;
+import diegojunco.services.GreetingService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 

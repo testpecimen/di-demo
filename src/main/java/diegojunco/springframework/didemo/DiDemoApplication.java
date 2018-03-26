@@ -7,8 +7,10 @@ import diegojunco.springframework.didemo.controllers.SetterInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"diegojunco.services", "diegojunco.springframework"})
 public class DiDemoApplication {
 
 	public static void main(String[] args) {

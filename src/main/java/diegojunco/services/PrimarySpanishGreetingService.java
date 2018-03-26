@@ -1,18 +1,19 @@
-package diegojunco.springframework.didemo.services;
+package diegojunco.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by Diego Junco on 20/03/2018
+ * Created by Diego Junco on 15/03/2018
  **/
 @Service
+@Profile("es")
 @Primary
-@Profile("de")
-public class PrimaryGermanGreetingService implements GreetingService {
+public class PrimarySpanishGreetingService implements GreetingService {
+
     @Override
     public String sayGreeting() {
-        return "Hallo - primarer BengruBungsdienst";
+        return "Servicio de Saludo Primario";
     }
 }
